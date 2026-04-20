@@ -132,11 +132,11 @@ function toggleEye() {
 function copyPaste1() {
   password1.select();
   navigator.clipboard.writeText(password1.value);
-  alert("Copied: " + password1.value);
+  alert("Copied the password: " + password1.value);
 }
 
 function copyPaste2() {
   password2.select();
   navigator.clipboard.writeText(password2.value);
-  alert("Copied: " + password2.value);
+  alert("Copied the password: " + password2.value);
 }
