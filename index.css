@@ -1,0 +1,202 @@
+body {
+  background-color: #1a0934;
+  place-items: center;
+  min-height: 100vh;
+  display: grid;
+}
+
+.container {
+  width: 100%;
+  max-width: 550px;
+  background-color: #ede9fe;
+  padding: 90px 52px;
+  border-radius: 15px;
+}
+
+.title-1 {
+  color: #4c1d95;
+  font-size: 40px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#title-2 {
+  color: #8b5cf6;
+  font-size: 40px;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  padding-bottom: 0%;
+}
+
+#description {
+  color: #4c1d95;
+  font-size: 20px;
+  font-weight: normal;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+#settings {
+  display: flex;
+  flex-direction: row;
+}
+
+#charactersNumber {
+  color: #4c1d95;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: semi-expanded;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#characterLength {
+  background-color: #ede9fe;
+  border-bottom: 1px solid #a78bfa;
+  border-top: #ede9fe;
+  border-left: #ede9fe;
+  border-right: #ede9fe;
+  outline: none;
+  width: 45px;
+  height: 35px;
+  text-align: center;
+  color: #4c1d95;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: light;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+#btn {
+  background-color: #8b5cf6;
+  color: #ede9fe;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  transition: background-color 0.2s ease;
+}
+
+#btn:hover {
+  cursor: pointer;
+}
+
+#btn:active {
+  background-color: #4c1d95;
+}
+
+#line {
+  display: flex;
+  justify-content: space-around;
+}
+
+#passwordOne,
+#passwordTwo {
+  color: #ede9fe;
+  text-align: center;
+  background-color: #b19dec;
+  border: 1px solid #4c1d95;
+  border-radius: 5px;
+  height: 40px;
+  width: 230px;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+#eye-block {
+  display: flex;
+}
+
+#closed,
+#open {
+  width: 40px;
+  height: 40px;
+  margin-top: 16px;
+  margin-left: 3px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+#open img,
+#closed img {
+  width: 40px;
+  height: 40px;
+}
+
+#open {
+  display: none;
+}
+
+#wraper,
+#wraper2 {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#copyPasteOne,
+#copyPasteTwo {
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  border: transparent;
+  outline: none;
+}
+
+#copyPasteOne img,
+#copyPasteTwo img {
+  width: 25px;
+  height: 25px;
+}
+
+#copyPasteOne {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+#copyPasteTwo {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
